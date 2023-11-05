@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+}
+
+/* App.css */
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-field::placeholder {
+  color: #888;
+}
+
+.input-field:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.select-container {
+  margin-bottom:  10px;
+}
+
+.select-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none; /* Remove the default arrow icon */
+  background-color: #f9f9f9;
+}
+
+.select-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+.text {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.text1{
+  color: #ffffff;
+  font-size: 50px;
+}
+.text2{
+  color: #747474;
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
