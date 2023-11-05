@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wot_calculator/static/css/main.2164f997.css",
+    "main.js": "/wot_calculator/static/js/main.b96591c9.js",
+    "index.html": "/wot_calculator/index.html",
+    "main.2164f997.css.map": "/wot_calculator/static/css/main.2164f997.css.map",
+    "main.b96591c9.js.map": "/wot_calculator/static/js/main.b96591c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2164f997.css",
+    "static/js/main.b96591c9.js"
+  ]
+}
