@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/wot_calculator/static/css/main.c04f7546.css",
-    "main.js": "/wot_calculator/static/js/main.63a8922a.js",
+    "main.css": "/wot_calculator/static/css/main.f8808bf0.css",
+    "main.js": "/wot_calculator/static/js/main.b544d562.js",
     "index.html": "/wot_calculator/index.html",
-    "main.c04f7546.css.map": "/wot_calculator/static/css/main.c04f7546.css.map",
-    "main.63a8922a.js.map": "/wot_calculator/static/js/main.63a8922a.js.map"
+    "main.f8808bf0.css.map": "/wot_calculator/static/css/main.f8808bf0.css.map",
+    "main.b544d562.js.map": "/wot_calculator/static/js/main.b544d562.js.map"
   },
   "entrypoints": [
-    "static/css/main.c04f7546.css",
-    "static/js/main.63a8922a.js"
+    "static/css/main.f8808bf0.css",
+    "static/js/main.b544d562.js"
   ]
 }
