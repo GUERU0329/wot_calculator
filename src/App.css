@@ -61,4 +61,35 @@ body {
   width: 100%;
 }
 
+.checkbox-container {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.checkbox-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.checkbox-container label {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.select-field-equipment {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  background-color: #f9f9f9;
+}
+
+.select-field-equipment:focus {
+  border-color: #007bff;
+  outline: none;
+}
 
