@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #282c34;
+  background-color: #18191b;
 }
 
 /* App.css */
@@ -43,7 +43,11 @@ body {
   outline: none;
 }
 
-
+.title {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .text {
   color: #ffffff;
   font-size: 30px;
@@ -89,7 +93,7 @@ body {
 }
 
 .select-field-equipment:focus {
-  border-color: #007bff;
+  border-color: #007bff;  
   outline: none;
 }
 

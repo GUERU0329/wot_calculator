@@ -24,7 +24,7 @@ function ControlPanel({ onInputChange, onEquipmentChange, onMovementChange  }) {
   <select className="select-field select-field-equipment" onChange={(e) => onEquipmentChange('commanderEquipmentType', e.target.value)}>
           <option value="none">車長用視認性向上装置</option>
           <option value="10-15">移動中隠蔽率10%減少/草むら隠蔽ボーナス15%減少</option>
-          <option value="12.5-20">移動中隠蔽率12.5%移動中/草むら隠蔽ボーナス20%減少</option>
+          <option value="12.5-20">移動中隠蔽率12.5%減少/草むら隠蔽ボーナス20%減少</option>
         </select>
     </div>
     </div>  
@@ -136,12 +136,10 @@ function App() {
     if (field === 'bushCount') setBushCount(value);
   };
   const [commanderEquipmentType, setCommanderEquipmentType] = useState('none');
-// handleEquipmentChange 関数の外に handleMovementChange 関数を移動
 const handleMovementChange = (isMoving) => {
   setEnemyMovement(isMoving ? 'moving' : 'stationary');
 };
 
-// handleEquipmentChange 関数
 const handleEquipmentChange = (field, value) => {
   if (field === 'commanderEquipmentType') setCommanderEquipmentType(value);
 };
@@ -180,7 +178,7 @@ const handleEquipmentChange = (field, value) => {
 
   return (
     <div className="App">
-      <div className='text'>
+      <div className='title'>
         WoT発見距離計算機
       </div>
       <ControlPanel 
