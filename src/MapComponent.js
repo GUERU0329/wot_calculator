@@ -34,6 +34,26 @@ const mapsConfig = [
     scale: 608 / 1000,
   },
   {
+    name: '漁師の港',
+    imageUrl: process.env.PUBLIC_URL + '/Maps/漁師の港-min.png', 
+    scale: 608 / 1000,
+  },
+  {
+    name: '高速道路',
+    imageUrl: process.env.PUBLIC_URL + '/Maps/高速道路-min.png', 
+    scale: 608 / 1000,
+  },
+  {
+    name: 'ゴーストタウン',
+    imageUrl: process.env.PUBLIC_URL + '/Maps/ゴーストタウン-min.png', 
+    scale: 608 / 1000,
+  },
+  {
+    name: 'フィヨルド',
+    imageUrl: process.env.PUBLIC_URL + '/Maps/フィヨルド-min.png', 
+    scale: 608 / 1000,
+  },
+  {
     name: '修道院',
     imageUrl: process.env.PUBLIC_URL + '/Maps/修道院-min.png', 
     scale: 608 / 1000,
@@ -84,12 +104,11 @@ const mapsConfig = [
     
     return (
       <div style={{ position: 'relative' }}>
-        <img src={mapConfig.imageUrl} alt="map" draggable="false" />
-        
+        <img src={mapConfig.imageUrl} alt="map" draggable="false" />       
         <Draggable detectionDistance={detectionPixel}>
-          <div style={{ position: 'absolute', top: 0, left: 0 }}>
-            <VehicleAndDetectionCircle detectionDistance={detectionPixel} />
-          </div>
+        <div style={{ position: 'absolute', top: 0, left: 0 }}>
+        <VehicleAndDetectionCircle detectionDistance={detectionPixel} />
+        </div>
         </Draggable>
       </div>
     );
